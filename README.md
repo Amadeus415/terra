@@ -1,13 +1,19 @@
-# Desktop robotics arm
+# SO-101 arm and quadruped research
 
-A build guide and Fusion reference for a desk-mounted SO-101 follower arm, based on The Robot Studio and Hugging Face's published design. Start with [BUILD-GUIDE.md](BUILD-GUIDE.md). The [design notes](DESIGN-NOTES.md) record what has and has not been verified.
+This project contains a guide to a desk-mounted SO-101 follower arm and exploratory Fusion studies for carrying it on a four-legged base.
 
-The arm has not been printed, assembled, or physically tested for this project. The Fusion archive is a static reference, not an articulated or custom-validated design.
+**The walking robot is not ready to print or operate.** It has not been assembled or physically tested, and its mount, actuators, power, controls and gait are not validated. The images and CAD concepts are studies, not a completed build.
 
-The upstream print files and license are pinned in the `reference/SO-ARM100` Git submodule. Clone with:
+- [Desktop arm build guide](BUILD-GUIDE.md) and [design notes](DESIGN-NOTES.md)
+- [Walking-robot build readiness](BUILD-READINESS.md) and [quadruped placement study](QUADRUPED-PLACEMENT-STUDY.md)
+- [Single-leg motion and interference study](SINGLE-LEG-MOTION-STUDY.md)
+- [Arm mount and load study](ARM-MOUNT-STUDY.md) and [Fusion support simulation](SUPPORT-SIMULATION.md)
+- [Early quadruped layout concept](QUADRUPED-CONCEPT.md)
+
+The upstream SO-101 print files and license are pinned in the `reference/SO-ARM100` Git submodule. Clone with:
 
 ```bash
 git clone --recurse-submodules https://github.com/Amadeus415/robotics_terra.git
 ```
 
-For an existing clone, run `git submodule update --init --recursive`. Open the guide from the local checkout to use its links to files inside the submodule. On GitHub, browse the upstream submodule or the [SO-101 repository](https://github.com/TheRobotStudio/SO-ARM100) directly.
+For an existing clone, run `git submodule update --init --recursive`. Open the guides from the local checkout to use their links to submodule files. On GitHub, browse the upstream submodule or the [SO-101 repository](https://github.com/TheRobotStudio/SO-ARM100) directly. Quadruped source attribution and terms are recorded in the [placement study](QUADRUPED-PLACEMENT-STUDY.md).
