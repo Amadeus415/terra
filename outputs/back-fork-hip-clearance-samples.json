@@ -1,0 +1,87 @@
+[
+  {
+    "hip_deg": -20,
+    "actual_deg": -20.0,
+    "pairs_tested": 9,
+    "failed": [],
+    "intersections": [
+      {
+        "body": "Body2",
+        "volume_mm3": 1.0306
+      },
+      {
+        "body": "Body3",
+        "volume_mm3": 6.2637
+      },
+      {
+        "body": "Body15",
+        "volume_mm3": 6.7363
+      },
+      {
+        "body": "Body22",
+        "volume_mm3": 2.3934
+      }
+    ]
+  },
+  {
+    "hip_deg": -15,
+    "actual_deg": -15.0,
+    "pairs_tested": 9,
+    "failed": [],
+    "intersections": [
+      {
+        "body": "Body3",
+        "volume_mm3": 0.0258
+      }
+    ]
+  },
+  {
+    "hip_deg": -10,
+    "actual_deg": -10.0,
+    "pairs_tested": 9,
+    "failed": [],
+    "intersections": []
+  },
+  {
+    "hip_deg": -5,
+    "actual_deg": -5.0,
+    "pairs_tested": 9,
+    "failed": [],
+    "intersections": []
+  },
+  {
+    "hip_deg": 0,
+    "actual_deg": 0.0,
+    "pairs_tested": 9,
+    "failed": [],
+    "intersections": []
+  },
+  {
+    "hip_deg": 5,
+    "actual_deg": 5.0,
+    "pairs_tested": 9,
+    "failed": [],
+    "intersections": []
+  },
+  {
+    "hip_deg": 10,
+    "actual_deg": 10.0,
+    "pairs_tested": 9,
+    "failed": [],
+    "intersections": []
+  },
+  {
+    "hip_deg": 15,
+    "actual_deg": 15.0,
+    "pairs_tested": 9,
+    "failed": [],
+    "intersections": []
+  },
+  {
+    "hip_deg": 20,
+    "actual_deg": 20.0,
+    "pairs_tested": 9,
+    "failed": [],
+    "intersections": []
+  }
+]

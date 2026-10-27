@@ -1,0 +1,258 @@
+[
+  {
+    "hip_deg": -45,
+    "actual_deg": -45.0,
+    "pairs_tested": 10,
+    "failed": [],
+    "intersections": [
+      {
+        "body": "Body1",
+        "volume_mm3": 260.3314
+      },
+      {
+        "body": "Body2",
+        "volume_mm3": 429.0647
+      },
+      {
+        "body": "Body3",
+        "volume_mm3": 281.5513
+      },
+      {
+        "body": "Body15",
+        "volume_mm3": 62.688
+      },
+      {
+        "body": "Body22",
+        "volume_mm3": 224.4322
+      }
+    ]
+  },
+  {
+    "hip_deg": -40,
+    "actual_deg": -40.0,
+    "pairs_tested": 10,
+    "failed": [],
+    "intersections": [
+      {
+        "body": "Body1",
+        "volume_mm3": 90.6166
+      },
+      {
+        "body": "Body2",
+        "volume_mm3": 260.6469
+      },
+      {
+        "body": "Body3",
+        "volume_mm3": 196.4106
+      },
+      {
+        "body": "Body15",
+        "volume_mm3": 41.0595
+      },
+      {
+        "body": "Body22",
+        "volume_mm3": 126.7265
+      }
+    ]
+  },
+  {
+    "hip_deg": -35,
+    "actual_deg": -35.0,
+    "pairs_tested": 10,
+    "failed": [],
+    "intersections": [
+      {
+        "body": "Body1",
+        "volume_mm3": 27.5012
+      },
+      {
+        "body": "Body2",
+        "volume_mm3": 170.2951
+      },
+      {
+        "body": "Body3",
+        "volume_mm3": 146.7399
+      },
+      {
+        "body": "Body15",
+        "volume_mm3": 27.5162
+      },
+      {
+        "body": "Body22",
+        "volume_mm3": 72.4571
+      }
+    ]
+  },
+  {
+    "hip_deg": -30,
+    "actual_deg": -30.0,
+    "pairs_tested": 10,
+    "failed": [],
+    "intersections": [
+      {
+        "body": "Body1",
+        "volume_mm3": 3.4624
+      },
+      {
+        "body": "Body2",
+        "volume_mm3": 79.0764
+      },
+      {
+        "body": "Body3",
+        "volume_mm3": 83.6138
+      },
+      {
+        "body": "Body15",
+        "volume_mm3": 19.5488
+      },
+      {
+        "body": "Body22",
+        "volume_mm3": 38.8763
+      }
+    ]
+  },
+  {
+    "hip_deg": -25,
+    "actual_deg": -25.0,
+    "pairs_tested": 10,
+    "failed": [],
+    "intersections": [
+      {
+        "body": "Body2",
+        "volume_mm3": 18.6621
+      },
+      {
+        "body": "Body3",
+        "volume_mm3": 32.2172
+      },
+      {
+        "body": "Body15",
+        "volume_mm3": 13.4369
+      },
+      {
+        "body": "Body22",
+        "volume_mm3": 15.7734
+      }
+    ]
+  },
+  {
+    "hip_deg": -20,
+    "actual_deg": -20.0,
+    "pairs_tested": 9,
+    "failed": [],
+    "intersections": [
+      {
+        "body": "Body2",
+        "volume_mm3": 1.0306
+      },
+      {
+        "body": "Body3",
+        "volume_mm3": 6.2637
+      },
+      {
+        "body": "Body15",
+        "volume_mm3": 6.7363
+      },
+      {
+        "body": "Body22",
+        "volume_mm3": 2.3934
+      }
+    ]
+  },
+  {
+    "hip_deg": -15,
+    "actual_deg": -15.0,
+    "pairs_tested": 9,
+    "failed": [],
+    "intersections": [
+      {
+        "body": "Body3",
+        "volume_mm3": 0.0258
+      }
+    ]
+  },
+  {
+    "hip_deg": -10,
+    "actual_deg": -10.0,
+    "pairs_tested": 9,
+    "failed": [],
+    "intersections": []
+  },
+  {
+    "hip_deg": -5,
+    "actual_deg": -5.0,
+    "pairs_tested": 9,
+    "failed": [],
+    "intersections": []
+  },
+  {
+    "hip_deg": 0,
+    "actual_deg": 0.0,
+    "pairs_tested": 9,
+    "failed": [],
+    "intersections": []
+  },
+  {
+    "hip_deg": 5,
+    "actual_deg": 5.0,
+    "pairs_tested": 9,
+    "failed": [],
+    "intersections": []
+  },
+  {
+    "hip_deg": 10,
+    "actual_deg": 10.0,
+    "pairs_tested": 9,
+    "failed": [],
+    "intersections": []
+  },
+  {
+    "hip_deg": 15,
+    "actual_deg": 15.0,
+    "pairs_tested": 9,
+    "failed": [],
+    "intersections": []
+  },
+  {
+    "hip_deg": 20,
+    "actual_deg": 20.0,
+    "pairs_tested": 9,
+    "failed": [],
+    "intersections": []
+  },
+  {
+    "hip_deg": 25,
+    "actual_deg": 25.0,
+    "pairs_tested": 10,
+    "failed": [],
+    "intersections": []
+  },
+  {
+    "hip_deg": 30,
+    "actual_deg": 30.0,
+    "pairs_tested": 10,
+    "failed": [],
+    "intersections": []
+  },
+  {
+    "hip_deg": 35,
+    "actual_deg": 35.0,
+    "pairs_tested": 10,
+    "failed": [],
+    "intersections": []
+  },
+  {
+    "hip_deg": 40,
+    "actual_deg": 40.0,
+    "pairs_tested": 10,
+    "failed": [],
+    "intersections": []
+  },
+  {
+    "hip_deg": 45,
+    "actual_deg": 45.0,
+    "pairs_tested": 10,
+    "failed": [],
+    "intersections": []
+  }
+]

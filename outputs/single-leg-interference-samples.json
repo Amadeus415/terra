@@ -1,0 +1,292 @@
+[
+  {
+    "drive": "Flat coxa yaw diagnostic",
+    "command_deg": 0,
+    "actual_deg": 0.0,
+    "knee_deg": 0.0,
+    "candidate_pairs": 33,
+    "failed": [],
+    "hits": [
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body1 <> Flattened femur - diagnostic:1/Body23",
+        "volume_mm3": 4.9907
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body25 <> Flattened tibia - diagnostic:1/Body3",
+        "volume_mm3": 2.8265
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body14 <> Knee crank - diagnostic:1/Body1",
+        "volume_mm3": 18.4464
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body22 <> Knee crank - diagnostic:1/Body1",
+        "volume_mm3": 20.2371
+      }
+    ]
+  },
+  {
+    "drive": "Flat hip flex diagnostic",
+    "command_deg": -20,
+    "actual_deg": -20.0,
+    "knee_deg": 0.0,
+    "candidate_pairs": 45,
+    "failed": [],
+    "hits": [
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body1 <> Flattened femur - diagnostic:1/Body23",
+        "volume_mm3": 7.507
+      },
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body11 <> Flattened femur - diagnostic:1/Body2",
+        "volume_mm3": 1.0306
+      },
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body11 <> Flattened femur - diagnostic:1/Body3",
+        "volume_mm3": 6.2637
+      },
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body11 <> Flattened femur - diagnostic:1/Body15",
+        "volume_mm3": 6.7363
+      },
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body11 <> Flattened femur - diagnostic:1/Body22",
+        "volume_mm3": 2.3934
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body25 <> Flattened tibia - diagnostic:1/Body3",
+        "volume_mm3": 2.8265
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body14 <> Knee crank - diagnostic:1/Body1",
+        "volume_mm3": 18.4464
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body22 <> Knee crank - diagnostic:1/Body1",
+        "volume_mm3": 20.2372
+      }
+    ]
+  },
+  {
+    "drive": "Flat hip flex diagnostic",
+    "command_deg": -10,
+    "actual_deg": -10.0,
+    "knee_deg": 0.0,
+    "candidate_pairs": 38,
+    "failed": [],
+    "hits": [
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body1 <> Flattened femur - diagnostic:1/Body23",
+        "volume_mm3": 7.8705
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body25 <> Flattened tibia - diagnostic:1/Body3",
+        "volume_mm3": 2.8265
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body14 <> Knee crank - diagnostic:1/Body1",
+        "volume_mm3": 18.4464
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body22 <> Knee crank - diagnostic:1/Body1",
+        "volume_mm3": 20.2371
+      }
+    ]
+  },
+  {
+    "drive": "Flat hip flex diagnostic",
+    "command_deg": 10,
+    "actual_deg": 10.0,
+    "knee_deg": 0.0,
+    "candidate_pairs": 35,
+    "failed": [],
+    "hits": [
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body1 <> Flattened femur - diagnostic:1/Body23",
+        "volume_mm3": 6.6973
+      },
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body12 <> Flattened femur - diagnostic:1/Body1",
+        "volume_mm3": 30.6158
+      },
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body12 <> Flattened femur - diagnostic:1/Body2",
+        "volume_mm3": 14.7773
+      },
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body12 <> Flattened femur - diagnostic:1/Body3",
+        "volume_mm3": 6.2453
+      },
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body12 <> Flattened femur - diagnostic:1/Body15",
+        "volume_mm3": 2.0226
+      },
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body12 <> Flattened femur - diagnostic:1/Body22",
+        "volume_mm3": 10.6288
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body25 <> Flattened tibia - diagnostic:1/Body3",
+        "volume_mm3": 2.8265
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body14 <> Knee crank - diagnostic:1/Body1",
+        "volume_mm3": 18.4464
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body22 <> Knee crank - diagnostic:1/Body1",
+        "volume_mm3": 20.2371
+      }
+    ]
+  },
+  {
+    "drive": "Flat hip flex diagnostic",
+    "command_deg": 20,
+    "actual_deg": 20.0,
+    "knee_deg": 0.0,
+    "candidate_pairs": 40,
+    "failed": [],
+    "hits": [
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body1 <> Flattened femur - diagnostic:1/Body23",
+        "volume_mm3": 8.144
+      },
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body12 <> Flattened femur - diagnostic:1/Body1",
+        "volume_mm3": 72.5362
+      },
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body12 <> Flattened femur - diagnostic:1/Body2",
+        "volume_mm3": 35.0109
+      },
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body12 <> Flattened femur - diagnostic:1/Body3",
+        "volume_mm3": 17.2988
+      },
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body12 <> Flattened femur - diagnostic:1/Body15",
+        "volume_mm3": 33.8847
+      },
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body12 <> Flattened femur - diagnostic:1/Body22",
+        "volume_mm3": 134.787
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body25 <> Flattened tibia - diagnostic:1/Body3",
+        "volume_mm3": 2.8265
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body14 <> Knee crank - diagnostic:1/Body1",
+        "volume_mm3": 18.4464
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body22 <> Knee crank - diagnostic:1/Body1",
+        "volume_mm3": 20.2371
+      }
+    ]
+  },
+  {
+    "drive": "Knee crank pivot diagnostic",
+    "command_deg": -20,
+    "actual_deg": -20.0,
+    "knee_deg": 20.0,
+    "candidate_pairs": 33,
+    "failed": [],
+    "hits": [
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body1 <> Flattened femur - diagnostic:1/Body23",
+        "volume_mm3": 4.9907
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body25 <> Flattened tibia - diagnostic:1/Body3",
+        "volume_mm3": 2.8265
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body14 <> Knee crank - diagnostic:1/Body1",
+        "volume_mm3": 15.861
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body22 <> Knee crank - diagnostic:1/Body1",
+        "volume_mm3": 20.2371
+      }
+    ]
+  },
+  {
+    "drive": "Knee crank pivot diagnostic",
+    "command_deg": -10,
+    "actual_deg": -10.0,
+    "knee_deg": 10.0,
+    "candidate_pairs": 33,
+    "failed": [],
+    "hits": [
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body1 <> Flattened femur - diagnostic:1/Body23",
+        "volume_mm3": 4.9907
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body25 <> Flattened tibia - diagnostic:1/Body3",
+        "volume_mm3": 2.8265
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body14 <> Knee crank - diagnostic:1/Body1",
+        "volume_mm3": 16.6865
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body22 <> Knee crank - diagnostic:1/Body1",
+        "volume_mm3": 20.2371
+      }
+    ]
+  },
+  {
+    "drive": "Knee crank pivot diagnostic",
+    "command_deg": 10,
+    "actual_deg": 10.0,
+    "knee_deg": 350.0,
+    "candidate_pairs": 33,
+    "failed": [],
+    "hits": [
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body1 <> Flattened femur - diagnostic:1/Body23",
+        "volume_mm3": 4.9907
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body25 <> Flattened tibia - diagnostic:1/Body3",
+        "volume_mm3": 2.8265
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body14 <> Knee crank - diagnostic:1/Body1",
+        "volume_mm3": 16.6865
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body22 <> Knee crank - diagnostic:1/Body1",
+        "volume_mm3": 20.2371
+      }
+    ]
+  },
+  {
+    "drive": "Knee crank pivot diagnostic",
+    "command_deg": 20,
+    "actual_deg": 20.0,
+    "knee_deg": 340.0,
+    "candidate_pairs": 34,
+    "failed": [],
+    "hits": [
+      {
+        "pair": "Flattened coxa - diagnostic:1/Body1 <> Flattened femur - diagnostic:1/Body23",
+        "volume_mm3": 4.9907
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body25 <> Flattened tibia - diagnostic:1/Body3",
+        "volume_mm3": 2.8265
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body14 <> Knee crank - diagnostic:1/Body1",
+        "volume_mm3": 15.861
+      },
+      {
+        "pair": "Flattened femur - diagnostic:1/Body22 <> Knee crank - diagnostic:1/Body1",
+        "volume_mm3": 20.2372
+      }
+    ]
+  }
+]
