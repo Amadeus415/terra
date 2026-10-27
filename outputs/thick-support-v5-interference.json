@@ -1,0 +1,32 @@
+[
+  {
+    "component": "CONCEPT arm plate 120x100 - NOT VALIDATED:1",
+    "candidate_pairs": 4,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "component": "CONCEPT thick drilled support L 1 - NOT VALIDATED:1",
+    "candidate_pairs": 4,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "component": "CONCEPT thick drilled support L 2 - NOT VALIDATED:1",
+    "candidate_pairs": 3,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "component": "CONCEPT thick drilled support R 1 - NOT VALIDATED:1",
+    "candidate_pairs": 3,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "component": "CONCEPT thick drilled support R 2 - NOT VALIDATED:1",
+    "candidate_pairs": 3,
+    "intersections": [],
+    "failures": []
+  }
+]

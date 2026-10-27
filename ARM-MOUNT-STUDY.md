@@ -1,0 +1,69 @@
+# Arm mount and gravity-load study
+
+**Concept only: do not print or load this plate.** [Open the Fusion concept](outputs/quadruped-arm-interface-CONCEPT.f3d). It adds a 90 × 100 × 4 mm plate under the SO-101 to explore space and four candidate base-hole positions. The plate is floating, with no connection to the chassis or arm, no fasteners, no stow restraint, and no established load path. The holes and 5.2 mm clearance diameter are exploratory; the screw type, engagement, access and structural adequacy have not been established. The original [placement study](QUADRUPED-PLACEMENT-STUDY.md) and [build-readiness assessment](BUILD-READINESS.md) remain applicable.
+
+A later [side-support and bolt-envelope concept](outputs/quadruped-side-support-v3-bolt-envelopes-CONCEPT.f3d) explores a possible connection; it remains unvalidated and is not a buildable mount. Details and unresolved interference are below.
+
+The latest [raised mount and tool-access study](outputs/quadruped-driver-access-CONCEPT.f3d) includes arm-bolt, side-bolt and tool envelopes. It is also a concept, not a print or assembly release.
+
+## Space and interface in Fusion
+
+In the placement study's coordinate frame, Y is vertical. The candidate plate spans X = −45 to +45 mm, Z = −60 to +40 mm, and Y = 66.384 to 70.384 mm. Four 5.2 mm holes are centered at X/Z = (−31.75, −45.42), (+31.75, −45.42), (−27.78, +24.35), and (+27.78, +24.35) mm. Those centers were interpreted from nominal 5 mm cylindrical surfaces in the imported arm base; this does not establish that they accept a particular fastener or transfer load safely. The plate is just a fit study, not a finished mount.
+
+The arm's original placement had to be restored and captured after adding the plate because the uncaptured occurrence returned to its original position when Fusion recomputed the model. The exported concept was reopened, and its arm transform and plate were verified. In the restored reference pose, the measured minimum distance from the plate to the arm base was about 0.0103 mm; distances to the two upper chassis bodies were about 0.4726 mm and 2.1993 mm. An interference check against the other modeled bodies found no bounding-box candidates in that one pose, with coincident faces excluded. These gaps are not reliable clearances for manufacture, and the plate does not touch the chassis or base. The [check record](outputs/arm-interface-interference.json) applies only to this static pose. It says nothing about other arm poses, connectors and cables, tolerances, fastening, load, or assembly access.
+
+The chassis has upper surfaces at different heights and holds modeled electronics. A suitable mount needs positive connections into identified load-bearing structure, clearance for the electronics and cables, accessible hardware, a supported arm footprint, and a validated stow restraint. Those requirements have not been validated.
+
+## Side-support concept and bolt envelopes
+
+Fusion inspection found four existing side-hole axes at Y = 14.5 mm and Z = −24.65 or +24.0 mm, on both sides of the chassis. The imported upper-shell faces are nominally 3.2 mm in diameter and the adjacent lower-shell faces nominally 3.0 mm; their actual screw type, engagement, existing role and strength are not established. A possible attachment uses these locations rather than assuming that the electronics mounting holes are structural.
+
+The later concept replaces the first floating plate with a 120 × 100 × 4 mm plate and four separate L-shaped side supports. Each support has a 3.4 mm side hole aligned to one of those axes and a 3.4 mm top hole aligned with the plate. The plate still has the four exploratory 5.2 mm holes for the arm base. The supports sit approximately 0.5 mm outside the nominal outer chassis surface; the necessary clamping, spacers and load transfer have not been defined. The arm remains approximately 0.01 mm above the plate and no attachment to it is modeled. The four simple bolt envelopes are duplicated for left and right: a 3 mm diameter, 12 mm long cylinder with a 5.5 mm diameter, 3 mm high cylindrical head. These are **clearance probes**, not selected fasteners; no nuts, washers, threads or tool access are modeled.
+
+The first bracket volume slightly intersected the upper shell, so its inner edge was moved outward. A first hole layout had its proposed vertical screw path inside the arm base; the later plate was widened and the front holes moved to X = ±51.5, Z = −34 mm. The rear holes are at X = ±51.5, Z = +24 mm. The support shapes and plate in the [v3 concept](outputs/quadruped-side-support-v3-CONCEPT.f3d) reported no solid intersections with the selected modeled bodies in the reference pose, excluding coincident faces. A limited set of points within a 3.5 mm radius above each plate hole also lay outside the arm base. This is not a continuous fastener or tool-clearance check. [Results](outputs/side-support-v3-interference.json).
+
+Subsequently, the four plate-bolt envelopes and four side-bolt envelopes were checked against modeled bodies. The plate envelopes produced no reported solid intersections. Two side-bolt shafts, at Z = −24.65 mm, each intersected the lower chassis body by about 0.02456 mm³; the other two did not. This could reflect nominal hole fit or imported geometry, but the cause and acceptability are unknown. [Results](outputs/bolt-envelope-interference.json). The archive was reopened with four supports, eight envelopes and the arm placement intact. Its timeline showed no errors or warnings, which does not establish mechanical fitness.
+
+The design still lacks actual hardware and a secure connection from plate to arm; even the chassis screw lengths and retention method are unverified. The bracket arms and shell may flex or fail under arm and walking loads, and moving legs, wiring, screwdriver access, hardware tolerances and print direction were not checked. A real mount needs engineering and physical validation before use. [The Fusion construction script](tools/fusion_mount_concept.py) regenerates the v3 geometry from the placement archive but does not perform those validations or generate the bolt envelopes.
+
+## Raised mount, arm bolts and access study
+
+The upstream [4040-profile adapter](reference/SO-ARM100/Optional/4040_Base_Mount/README.md) specifies four M4 × 30 mm screws and nuts through nominal 5 mm holes for an **SO-100** base. That is useful precedent, but it does not establish hardware compatibility or strength for the SO-101 on this quadruped. Fusion inspection found four 90° countersinks in the imported SO-101 base. Idealized flat cylindrical heads left about 0.916–0.918 mm minimum distance to the base and would not clamp it in the assumed positions. Conical head envelopes matching the imported 90° seats reached zero measured distance; after aligning to the precise CAD cone axes and heights, Fusion reported no solid interference for those bolt/base pairs with coincident faces excluded. This is idealized geometric contact, not a specification for a purchased screw or proof of load capacity. [Seat check](outputs/countersunk-exact-seat.json).
+
+At the original plate height, M4 × 30 mm cylindrical shaft and nut envelopes intersected the modeled chassis upper shell. The [raised v4 concept](outputs/quadruped-raised-support-v4-bolt-envelopes-CONCEPT.f3d) raises the arm and plate by 10 mm and extends the side supports accordingly. The previous arm-bolt shaft and nut envelopes, plate and supports then reported no solid intersections in the static pose. Two side-bolt shaft envelopes still have the small lower-shell overlaps recorded in the [v4 interference results](outputs/raised-support-v4-interference.json). The taller supports have not been assessed for bending, buckling or printed-layer failure.
+
+The latest study replaces the arm-bolt probe with an idealized **25 mm overall-length** countersunk shape: 4 mm shaft diameter, 8 mm head diameter, and a 90° cone. A cylindrical 8 mm diameter × 3.2 mm nut envelope sits below the plate. Its modeled screw tip projects about 1.09 mm below that envelope. These dimensions are a fit probe, not a selected hardware specification; actual standards, tolerance, nut/washer dimensions and retention remain to be checked. The bolt and nut envelopes reported no solid interference with the selected non-envelope bodies, and the bolt/base minimum distance was zero. [Results](outputs/raised-mount-tool-access.json). There is still a small modeled gap between the base and plate, and no joint or physical fastener in this concept.
+
+For assembly access, a 10 mm diameter × 20 mm vertical socket envelope below each arm nut intersects the upper shell and the modeled electronics. The equivalent envelopes below the four support nuts had no reported solid intersections in this pose. A 6 mm diameter × 100 mm vertical driver-shaft envelope above each support bolt and two arm bolts also had no reported solid intersections, but the other two arm driver envelopes intersected the modeled upper arm or motor holder. [Arm nut access](outputs/raised-mount-tool-access.json), [support nut access](outputs/support-nut-tool-access.json), and [driver access](outputs/driver-access.json). Tool handles, real socket walls, wiring, insertion paths and other poses were not checked.
+
+One possible assembly sequence to investigate is fastening the arm base to the plate **before** installing that subassembly on the chassis, with the obstructing arm components fitted after the base bolts if necessary, then attaching the plate to the side supports. This has not been demonstrated and is not an approved build procedure. It also does not establish that the four side chassis holes can safely carry the resulting loads. The raised geometry is reproducible with [the Fusion construction script](tools/fusion_raised_mount_concept.py); bolt and tool envelopes were added separately. The archive was reopened with the raised arm transform, supports and envelopes intact.
+
+## Thicker support iteration
+
+The sideways simulation described in [SUPPORT-SIMULATION.md](SUPPORT-SIMULATION.md) motivated a [thicker-wall concept](outputs/quadruped-raised-support-v5-thick-CONCEPT.f3d). The vertical walls were increased from 4 to 8 mm, keeping the inner face and side-hole center in place; their top flanges also extend 4 mm farther outward. Fusion reported no solid intersections for the plate and supports in the selected reference pose. [Static interference results](outputs/thick-support-v5-interference.json). This does not test moving legs, fastener strength or access, tolerances, or printed-layer behavior.
+
+Because the wall is thicker, an illustrative side-bolt envelope was increased from 12 to 16 mm to reach the same modeled depth. Two envelope shafts still have the previously observed 0.02456 mm³ overlap with the lower shell; it remains unresolved. [Bolt-envelope results](outputs/thick-support-16mm-bolt-interference.json). These are simplified shapes, not an orderable hardware specification. The front support volume increased from about 9,602 to 16,945 mm³; the geometry and larger loaded surface change the simulation comparison as well as adding mass. The [construction script](tools/fusion_thick_mount_concept.py) reproduces the concept.
+
+## Illustrative gravity estimates
+
+The pinned upstream `so101_new_calib.urdf` at revision `a758567c3978dfeefe282ede0500085a48fe8f78` contains link inertial masses totaling **0.632006 kg**. This is a simulation-model sum, not a measured assembled arm. It excludes any separately added camera, brackets, cable mass, or payload, and the URDF zero pose is not established as the same as the pose in the Fusion placement study. The [upstream simulation notes](reference/SO-ARM100/Simulation/SO101/README.md) describe its new-calibration joint convention and model limitations.
+
+The table uses a stationary model with gravity in the negative base-frame Z direction. The moment is the magnitude about the **URDF base origin**, not a bolt load or a result at the candidate plate; joint angles are URDF new-calibration angles. A hypothetical 100 g point mass is applied at the `gripper_frame_link` origin. The position and mass are illustrative and are not a measured object or a rated payload.
+
+| Shoulder lift / elbow flex | Hypothetical payload | Total model mass | Base gravity moment | Shoulder gravity torque magnitude |
+|---|---:|---:|---:|---:|
+| 0° / 0° | none | 0.632 kg | 0.888 N·m | 0.538 N·m |
+| 0° / 0° | 100 g | 0.732 kg | 1.272 N·m | 0.854 N·m |
+| −60° / +60° | 100 g | 0.732 kg | 0.771 N·m | 0.354 N·m |
+| +60° / −60° | 100 g | 0.732 kg | 1.659 N·m | 1.241 N·m |
+
+All other joints are zero in these examples. These are neither worst-case loads nor recommended poses. They do not include impacts, acceleration, servo friction, controller forces, walking dynamics, camera, mount mass, wiring, fastener preload, or a factor of safety. Do not use them to select fasteners or motors or to claim that the chassis can carry the arm. The source model's masses and limits need independent physical verification.
+
+To reproduce or evaluate another model pose with Python 3, run:
+
+```sh
+python3 tools/so101_gravity.py --joint shoulder_lift=60 --joint elbow_flex=-60 --payload-kg 0.1
+python3 -m unittest discover -s tests -v
+```
+
+[Raw examples](outputs/so101-gravity-examples.json) include full center-of-mass, base-wrench and per-joint gravity torque output. The calculation uses URDF fixed-axis RPY and joint axes; tests cover a known pendulum, numerical potential-energy derivatives across all six joints, and invalid settings. Those tests check the calculation, not the physical accuracy of the source inertias. A separate MuJoCo run was not completed because package installation failed certificate verification; the results above are an independent gravity calculation, not a dynamic simulation.

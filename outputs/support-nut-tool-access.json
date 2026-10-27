@@ -1,0 +1,26 @@
+[
+  {
+    "component": "ENVELOPE support nut tool L 1 - NOT HARDWARE:1",
+    "candidate_pairs": 2,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "component": "ENVELOPE support nut tool L 2 - NOT HARDWARE:1",
+    "candidate_pairs": 2,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "component": "ENVELOPE support nut tool R 1 - NOT HARDWARE:1",
+    "candidate_pairs": 2,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "component": "ENVELOPE support nut tool R 2 - NOT HARDWARE:1",
+    "candidate_pairs": 2,
+    "intersections": [],
+    "failures": []
+  }
+]

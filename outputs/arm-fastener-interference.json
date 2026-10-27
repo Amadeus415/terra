@@ -1,0 +1,54 @@
+[
+  {
+    "envelope": "ENVELOPE arm M4 bolt nut 1 - NOT HARDWARE:1",
+    "candidate_pairs": 6,
+    "intersections": [
+      {
+        "pair": "shaft <> body:1+upper:1/Body1",
+        "volume_mm3": 64.3714
+      },
+      {
+        "pair": "nut envelope <> body:1+upper:1/Body1",
+        "volume_mm3": 93.737
+      }
+    ],
+    "failures": []
+  },
+  {
+    "envelope": "ENVELOPE arm M4 bolt nut 2 - NOT HARDWARE:1",
+    "candidate_pairs": 6,
+    "intersections": [
+      {
+        "pair": "shaft <> body:1+upper:1/Body1",
+        "volume_mm3": 64.6491
+      },
+      {
+        "pair": "nut envelope <> body:1+upper:1/Body1",
+        "volume_mm3": 93.737
+      }
+    ],
+    "failures": []
+  },
+  {
+    "envelope": "ENVELOPE arm M4 bolt nut 3 - NOT HARDWARE:1",
+    "candidate_pairs": 6,
+    "intersections": [
+      {
+        "pair": "shaft <> body:1+upper:1/Body2",
+        "volume_mm3": 27.256
+      }
+    ],
+    "failures": []
+  },
+  {
+    "envelope": "ENVELOPE arm M4 bolt nut 4 - NOT HARDWARE:1",
+    "candidate_pairs": 6,
+    "intersections": [
+      {
+        "pair": "shaft <> body:1+upper:1/Body2",
+        "volume_mm3": 27.3345
+      }
+    ],
+    "failures": []
+  }
+]

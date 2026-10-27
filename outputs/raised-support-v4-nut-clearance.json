@@ -1,0 +1,26 @@
+[
+  {
+    "plate_bolt": "ENVELOPE plate bolt L 1 - NOT HARDWARE:1",
+    "nut_envelope_candidate_pairs": 1,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "plate_bolt": "ENVELOPE plate bolt L 2 - NOT HARDWARE:1",
+    "nut_envelope_candidate_pairs": 1,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "plate_bolt": "ENVELOPE plate bolt R 1 - NOT HARDWARE:1",
+    "nut_envelope_candidate_pairs": 1,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "plate_bolt": "ENVELOPE plate bolt R 2 - NOT HARDWARE:1",
+    "nut_envelope_candidate_pairs": 1,
+    "intersections": [],
+    "failures": []
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "component": "ENVELOPE 25mm countersunk arm bolt 1 - NOT HARDWARE:1",
+    "candidate_pairs": 3,
+    "intersections": [],
+    "failures": [],
+    "distance_arm_base_mm": 0.0
+  },
+  {
+    "component": "ENVELOPE 25mm countersunk arm bolt 2 - NOT HARDWARE:1",
+    "candidate_pairs": 3,
+    "intersections": [],
+    "failures": [],
+    "distance_arm_base_mm": 0.0
+  },
+  {
+    "component": "ENVELOPE 25mm countersunk arm bolt 3 - NOT HARDWARE:1",
+    "candidate_pairs": 3,
+    "intersections": [],
+    "failures": [],
+    "distance_arm_base_mm": 0.0
+  },
+  {
+    "component": "ENVELOPE 25mm countersunk arm bolt 4 - NOT HARDWARE:1",
+    "candidate_pairs": 3,
+    "intersections": [],
+    "failures": [],
+    "distance_arm_base_mm": 0.0
+  },
+  {
+    "component": "ENVELOPE nut tool approach 1 - NOT HARDWARE:1",
+    "candidate_pairs": 2,
+    "intersections": [
+      {
+        "pair": "Body1 <> body:1+upper:1/Body1",
+        "volume_mm3": 325.19732
+      },
+      {
+        "pair": "Body1 <> Raspberry Pi 4 Model B v4:1+Component20:1/Body1",
+        "volume_mm3": 23.03273
+      }
+    ],
+    "failures": []
+  },
+  {
+    "component": "ENVELOPE nut tool approach 2 - NOT HARDWARE:1",
+    "candidate_pairs": 2,
+    "intersections": [
+      {
+        "pair": "Body1 <> body:1+upper:1/Body1",
+        "volume_mm3": 324.59993
+      },
+      {
+        "pair": "Body1 <> Raspberry Pi 4 Model B v4:1+Component20:1/Body1",
+        "volume_mm3": 21.86139
+      }
+    ],
+    "failures": []
+  },
+  {
+    "component": "ENVELOPE nut tool approach 3 - NOT HARDWARE:1",
+    "candidate_pairs": 2,
+    "intersections": [
+      {
+        "pair": "Body1 <> body:1+upper:1/Body2",
+        "volume_mm3": 406.76543
+      },
+      {
+        "pair": "Body1 <> arduino mega v4:1/Body1",
+        "volume_mm3": 36.40135
+      }
+    ],
+    "failures": []
+  },
+  {
+    "component": "ENVELOPE nut tool approach 4 - NOT HARDWARE:1",
+    "candidate_pairs": 2,
+    "intersections": [
+      {
+        "pair": "Body1 <> body:1+upper:1/Body2",
+        "volume_mm3": 412.37314
+      },
+      {
+        "pair": "Body1 <> arduino mega v4:1/Body1",
+        "volume_mm3": 17.53365
+      }
+    ],
+    "failures": []
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "component_checks": [
+    {
+      "component": "CONCEPT arm plate 120x100 - NOT VALIDATED:1",
+      "candidate_pairs": 4,
+      "intersections": [],
+      "failures": []
+    },
+    {
+      "component": "CONCEPT drilled support L 1 - NOT VALIDATED:1",
+      "candidate_pairs": 4,
+      "intersections": [],
+      "failures": []
+    },
+    {
+      "component": "CONCEPT drilled support L 2 - NOT VALIDATED:1",
+      "candidate_pairs": 3,
+      "intersections": [],
+      "failures": []
+    },
+    {
+      "component": "CONCEPT drilled support R 1 - NOT VALIDATED:1",
+      "candidate_pairs": 3,
+      "intersections": [],
+      "failures": []
+    },
+    {
+      "component": "CONCEPT drilled support R 2 - NOT VALIDATED:1",
+      "candidate_pairs": 3,
+      "intersections": [],
+      "failures": []
+    }
+  ],
+  "limited_shaft_head_point_samples": [
+    {
+      "x_mm": -51.5,
+      "z_mm": -34,
+      "total_sampled_points": 168,
+      "points_inside_arm_base": 0
+    },
+    {
+      "x_mm": -51.5,
+      "z_mm": 24,
+      "total_sampled_points": 168,
+      "points_inside_arm_base": 0
+    },
+    {
+      "x_mm": 51.5,
+      "z_mm": -34,
+      "total_sampled_points": 168,
+      "points_inside_arm_base": 0
+    },
+    {
+      "x_mm": 51.5,
+      "z_mm": 24,
+      "total_sampled_points": 168,
+      "points_inside_arm_base": 0
+    }
+  ],
+  "limitations": "No fastener solids, contact loads, moving poses, physical fit, or structural capacity checked."
+}

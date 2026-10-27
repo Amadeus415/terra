@@ -1,0 +1,64 @@
+[
+  {
+    "driver": "ENVELOPE screwdriver arm 1 - NOT HARDWARE:1",
+    "candidate_pairs": 2,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "driver": "ENVELOPE screwdriver arm 2 - NOT HARDWARE:1",
+    "candidate_pairs": 3,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "driver": "ENVELOPE screwdriver arm 3 - NOT HARDWARE:1",
+    "candidate_pairs": 3,
+    "intersections": [
+      {
+        "body": "SO101 - placement study - NOT FASTENED:1+SO101 Assembly v4:1+Upper_arm_SO101 v9:1/Body1",
+        "volume_mm3": 203.18734
+      }
+    ],
+    "failures": []
+  },
+  {
+    "driver": "ENVELOPE screwdriver arm 4 - NOT HARDWARE:1",
+    "candidate_pairs": 6,
+    "intersections": [
+      {
+        "body": "SO101 - placement study - NOT FASTENED:1+SO101 Assembly v4:1+Upper_arm_SO101 v9:1/Body1",
+        "volume_mm3": 259.35744
+      },
+      {
+        "body": "SO101 - placement study - NOT FASTENED:1+SO101 Assembly v4:1+Motor_holder_SO101_Base v6:1/Body1",
+        "volume_mm3": 20.86814
+      }
+    ],
+    "failures": []
+  },
+  {
+    "driver": "ENVELOPE screwdriver supportL 1 - NOT HARDWARE:1",
+    "candidate_pairs": 1,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "driver": "ENVELOPE screwdriver supportL 2 - NOT HARDWARE:1",
+    "candidate_pairs": 1,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "driver": "ENVELOPE screwdriver supportR 1 - NOT HARDWARE:1",
+    "candidate_pairs": 1,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "driver": "ENVELOPE screwdriver supportR 2 - NOT HARDWARE:1",
+    "candidate_pairs": 1,
+    "intersections": [],
+    "failures": []
+  }
+]

@@ -1,0 +1,171 @@
+{
+  "source": "reference/SO-ARM100/Simulation/SO101/so101_new_calib.urdf",
+  "source_revision": "a758567c3978dfeefe282ede0500085a48fe8f78",
+  "caveat": "Gravity-only hypothetical point loads, not measured mass, physical calibration, component specification, or certification.",
+  "examples": {
+    "zero_no_payload": {
+      "root_link": "base_link",
+      "assumed_gravity_m_s2": [
+        0,
+        0,
+        -9.80665
+      ],
+      "payload_at_gripper_frame_kg": 0.0,
+      "angles_deg": {
+        "elbow_flex": 0.0,
+        "gripper": 0.0,
+        "shoulder_lift": 0.0,
+        "shoulder_pan": 0.0,
+        "wrist_flex": 0.0,
+        "wrist_roll": 0.0
+      },
+      "total_mass_kg": 0.6320060009999999,
+      "center_of_mass_m_in_base_frame": [
+        0.14324907059379036,
+        0.0012157684341255325,
+        0.15995670585773855
+      ],
+      "gravity_force_N": [
+        0,
+        0,
+        -6.197861649706649
+      ],
+      "gravity_moment_at_base_origin_Nm": [
+        -0.007535164552790542,
+        0.8878379209893738,
+        0
+      ],
+      "gravity_torque_about_joint_axes_Nm": {
+        "shoulder_pan": 1.8133327203938572e-06,
+        "shoulder_lift": 0.5384096170435103,
+        "elbow_flex": 0.45251101076141587,
+        "wrist_flex": 0.11701089710864063,
+        "wrist_roll": 3.7492781409141656e-05,
+        "gripper": -0.0035290806276177472
+      }
+    },
+    "zero_100g_payload": {
+      "root_link": "base_link",
+      "assumed_gravity_m_s2": [
+        0,
+        0,
+        -9.80665
+      ],
+      "payload_at_gripper_frame_kg": 0.1,
+      "angles_deg": {
+        "elbow_flex": 0.0,
+        "gripper": 0.0,
+        "shoulder_lift": 0.0,
+        "shoulder_pan": 0.0,
+        "wrist_flex": 0.0,
+        "wrist_roll": 0.0
+      },
+      "total_mass_kg": 0.732006001,
+      "center_of_mass_m_in_base_frame": [
+        0.17714392928175451,
+        0.0010484227435756356,
+        0.16904310737517558
+      ],
+      "gravity_force_N": [
+        0,
+        0,
+        -7.17852664970665
+      ],
+      "gravity_moment_at_base_origin_Nm": [
+        -0.007526130604916261,
+        1.271632417182825,
+        0
+      ],
+      "gravity_torque_about_joint_axes_Nm": {
+        "shoulder_pan": 2.7307054513676745e-06,
+        "shoulder_lift": 0.8543083280700421,
+        "elbow_flex": 0.7409515072871227,
+        "wrist_flex": 0.27315968513486294,
+        "wrist_roll": 0.0002008466012962792,
+        "gripper": -0.0035290806276177472
+      }
+    },
+    "shoulder_minus60_elbow_plus60_100g": {
+      "root_link": "base_link",
+      "assumed_gravity_m_s2": [
+        0,
+        0,
+        -9.80665
+      ],
+      "payload_at_gripper_frame_kg": 0.1,
+      "angles_deg": {
+        "elbow_flex": 60,
+        "gripper": 0.0,
+        "shoulder_lift": -60,
+        "shoulder_pan": 0.0,
+        "wrist_flex": 0.0,
+        "wrist_roll": 0.0
+      },
+      "total_mass_kg": 0.732006001,
+      "center_of_mass_m_in_base_frame": [
+        0.10742504423961667,
+        0.0010480400735354417,
+        0.14702488016666396
+      ],
+      "gravity_force_N": [
+        0,
+        0,
+        -7.17852664970665
+      ],
+      "gravity_moment_at_base_origin_Nm": [
+        -0.007523383597834685,
+        0.7711535429200042,
+        0
+      ],
+      "gravity_torque_about_joint_axes_Nm": {
+        "shoulder_pan": 1.402639818820522e-06,
+        "shoulder_lift": 0.3538294538016202,
+        "elbow_flex": 0.7409515072871229,
+        "wrist_flex": 0.273159685134863,
+        "wrist_roll": 0.0002008466012962741,
+        "gripper": -0.0035290806276177477
+      }
+    },
+    "shoulder_plus60_elbow_minus60_100g": {
+      "root_link": "base_link",
+      "assumed_gravity_m_s2": [
+        0,
+        0,
+        -9.80665
+      ],
+      "payload_at_gripper_frame_kg": 0.1,
+      "angles_deg": {
+        "elbow_flex": -60,
+        "gripper": 0.0,
+        "shoulder_lift": 60,
+        "shoulder_pan": 0.0,
+        "wrist_flex": 0.0,
+        "wrist_roll": 0.0
+      },
+      "total_mass_kg": 0.732006001,
+      "center_of_mass_m_in_base_frame": [
+        0.23107171591036413,
+        0.0010488949385916663,
+        0.1196738954087374
+      ],
+      "gravity_force_N": [
+        0,
+        0,
+        -7.17852664970665
+      ],
+      "gravity_moment_at_base_origin_Nm": [
+        -0.0075295202694226964,
+        1.658754470655993,
+        0
+      ],
+      "gravity_torque_about_joint_axes_Nm": {
+        "shoulder_pan": 3.7579685812660748e-06,
+        "shoulder_lift": 1.241430381555545,
+        "elbow_flex": 0.7409515072871228,
+        "wrist_flex": 0.273159685134863,
+        "wrist_roll": 0.00020084660129628224,
+        "gripper": -0.003529080627617749
+      }
+    }
+  }
+}

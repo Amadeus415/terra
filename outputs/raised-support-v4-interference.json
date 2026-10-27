@@ -1,0 +1,114 @@
+[
+  {
+    "target": "CONCEPT arm plate 120x100 - NOT VALIDATED:1",
+    "candidate_pairs": 20,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "target": "CONCEPT drilled support L 1 - NOT VALIDATED:1",
+    "candidate_pairs": 7,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "target": "CONCEPT drilled support L 2 - NOT VALIDATED:1",
+    "candidate_pairs": 6,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "target": "CONCEPT drilled support R 1 - NOT VALIDATED:1",
+    "candidate_pairs": 6,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "target": "CONCEPT drilled support R 2 - NOT VALIDATED:1",
+    "candidate_pairs": 6,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "target": "ENVELOPE arm M4 bolt nut 1 - NOT HARDWARE:1",
+    "candidate_pairs": 4,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "target": "ENVELOPE arm M4 bolt nut 2 - NOT HARDWARE:1",
+    "candidate_pairs": 4,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "target": "ENVELOPE arm M4 bolt nut 3 - NOT HARDWARE:1",
+    "candidate_pairs": 4,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "target": "ENVELOPE arm M4 bolt nut 4 - NOT HARDWARE:1",
+    "candidate_pairs": 4,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "target": "ENVELOPE plate bolt L 1 - NOT HARDWARE:1",
+    "candidate_pairs": 4,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "target": "ENVELOPE plate bolt L 2 - NOT HARDWARE:1",
+    "candidate_pairs": 4,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "target": "ENVELOPE chassis bolt L 1 - NOT HARDWARE:1",
+    "candidate_pairs": 4,
+    "intersections": [
+      {
+        "pair": "Body1 <> body:1+lower:1/Body1",
+        "volume_mm3": 0.02456
+      }
+    ],
+    "failures": []
+  },
+  {
+    "target": "ENVELOPE chassis bolt L 2 - NOT HARDWARE:1",
+    "candidate_pairs": 4,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "target": "ENVELOPE plate bolt R 1 - NOT HARDWARE:1",
+    "candidate_pairs": 4,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "target": "ENVELOPE plate bolt R 2 - NOT HARDWARE:1",
+    "candidate_pairs": 4,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "target": "ENVELOPE chassis bolt R 1 - NOT HARDWARE:1",
+    "candidate_pairs": 4,
+    "intersections": [
+      {
+        "pair": "Body1 <> body:1+lower:1/Body1",
+        "volume_mm3": 0.02456
+      }
+    ],
+    "failures": []
+  },
+  {
+    "target": "ENVELOPE chassis bolt R 2 - NOT HARDWARE:1",
+    "candidate_pairs": 4,
+    "intersections": [],
+    "failures": []
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "bolt": "ENVELOPE countersunk arm bolt 1 - NOT HARDWARE:1",
+    "distance_mm": 0.0,
+    "analysis_failed": false,
+    "intersection_volumes_mm3": []
+  },
+  {
+    "bolt": "ENVELOPE countersunk arm bolt 2 - NOT HARDWARE:1",
+    "distance_mm": 0.0,
+    "analysis_failed": false,
+    "intersection_volumes_mm3": []
+  },
+  {
+    "bolt": "ENVELOPE countersunk arm bolt 3 - NOT HARDWARE:1",
+    "distance_mm": 0.0,
+    "analysis_failed": false,
+    "intersection_volumes_mm3": []
+  },
+  {
+    "bolt": "ENVELOPE countersunk arm bolt 4 - NOT HARDWARE:1",
+    "distance_mm": 0.0,
+    "analysis_failed": false,
+    "intersection_volumes_mm3": []
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "bolt": "ENVELOPE plate bolt L 1 - NOT HARDWARE:1",
+    "candidate_pairs": 5,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "bolt": "ENVELOPE plate bolt L 2 - NOT HARDWARE:1",
+    "candidate_pairs": 5,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "bolt": "ENVELOPE chassis bolt L 1 - NOT HARDWARE:1",
+    "candidate_pairs": 4,
+    "intersections": [
+      {
+        "pair": "Body1 <> body:1+lower:1/Body1",
+        "volume_mm3": 0.02456
+      }
+    ],
+    "failures": []
+  },
+  {
+    "bolt": "ENVELOPE chassis bolt L 2 - NOT HARDWARE:1",
+    "candidate_pairs": 4,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "bolt": "ENVELOPE plate bolt R 1 - NOT HARDWARE:1",
+    "candidate_pairs": 5,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "bolt": "ENVELOPE plate bolt R 2 - NOT HARDWARE:1",
+    "candidate_pairs": 5,
+    "intersections": [],
+    "failures": []
+  },
+  {
+    "bolt": "ENVELOPE chassis bolt R 1 - NOT HARDWARE:1",
+    "candidate_pairs": 4,
+    "intersections": [
+      {
+        "pair": "Body1 <> body:1+lower:1/Body1",
+        "volume_mm3": 0.02456
+      }
+    ],
+    "failures": []
+  },
+  {
+    "bolt": "ENVELOPE chassis bolt R 2 - NOT HARDWARE:1",
+    "candidate_pairs": 4,
+    "intersections": [],
+    "failures": []
+  }
+]

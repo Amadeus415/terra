@@ -1,0 +1,36 @@
+[
+  {
+    "support": "CONCEPT side support L 1:1",
+    "candidate_pairs": 5,
+    "intersections": [
+      {
+        "body": "body:1+upper:1/Body1",
+        "volume_mm3": 0.4558
+      }
+    ],
+    "analysis_failures": []
+  },
+  {
+    "support": "CONCEPT side support L 2:1",
+    "candidate_pairs": 4,
+    "intersections": [],
+    "analysis_failures": []
+  },
+  {
+    "support": "CONCEPT side support R 1:1",
+    "candidate_pairs": 4,
+    "intersections": [
+      {
+        "body": "body:1+upper:1/Body1",
+        "volume_mm3": 0.4606
+      }
+    ],
+    "analysis_failures": []
+  },
+  {
+    "support": "CONCEPT side support R 2:1",
+    "candidate_pairs": 4,
+    "intersections": [],
+    "analysis_failures": []
+  }
+]

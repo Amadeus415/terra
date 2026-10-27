@@ -1,0 +1,50 @@
+[
+  {
+    "bolt": "ENVELOPE countersunk arm bolt 1 - NOT HARDWARE:1",
+    "minimum_distance_to_arm_base_mm": 0.0,
+    "candidate_pairs": 3,
+    "intersections": [
+      {
+        "pair": "Body1 <> SO101 - placement study - NOT FASTENED:1+SO101 Assembly v4:1+Base_SO101 v12:1/Body1",
+        "volume_mm3": 0.00498
+      }
+    ],
+    "failures": []
+  },
+  {
+    "bolt": "ENVELOPE countersunk arm bolt 2 - NOT HARDWARE:1",
+    "minimum_distance_to_arm_base_mm": 0.0,
+    "candidate_pairs": 3,
+    "intersections": [
+      {
+        "pair": "Body1 <> SO101 - placement study - NOT FASTENED:1+SO101 Assembly v4:1+Base_SO101 v12:1/Body1",
+        "volume_mm3": 0.00498
+      }
+    ],
+    "failures": []
+  },
+  {
+    "bolt": "ENVELOPE countersunk arm bolt 3 - NOT HARDWARE:1",
+    "minimum_distance_to_arm_base_mm": 0.0,
+    "candidate_pairs": 3,
+    "intersections": [
+      {
+        "pair": "Body1 <> SO101 - placement study - NOT FASTENED:1+SO101 Assembly v4:1+Base_SO101 v12:1/Body1",
+        "volume_mm3": 0.00694
+      }
+    ],
+    "failures": []
+  },
+  {
+    "bolt": "ENVELOPE countersunk arm bolt 4 - NOT HARDWARE:1",
+    "minimum_distance_to_arm_base_mm": 0.0,
+    "candidate_pairs": 3,
+    "intersections": [
+      {
+        "pair": "Body1 <> SO101 - placement study - NOT FASTENED:1+SO101 Assembly v4:1+Base_SO101 v12:1/Body1",
+        "volume_mm3": 0.00694
+      }
+    ],
+    "failures": []
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "pose": "restored and captured arm transform, reference placement",
+  "candidate_body_pairs": 0,
+  "intersections": [],
+  "analysis_failures": [],
+  "minimum_distance_mm": {
+    "SO101 - placement study - NOT FASTENED:1+SO101 Assembly v4:1+Base_SO101 v12:1/Body1": 0.0103,
+    "body:1+upper:1/Body1": 0.4726,
+    "body:1+upper:1/Body2": 2.1993
+  },
+  "warning": "Concept plate is unattached; analysis excludes coincident faces and does not assess fasteners, motion, or strength."
+}
