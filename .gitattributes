@@ -1,0 +1,3 @@
+# Preserve imported CAD exchange files byte-for-byte.
+*.step -text -diff
+*.stp -text -diff
