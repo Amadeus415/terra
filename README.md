@@ -3,26 +3,18 @@
 **Can a desk robot arm ride on a 3D-printed dog and pick things up wherever it goes?** This project is working
 toward that answer in Autodesk Fusion: first a desk-mounted SO-101 arm, then a four-legged base to carry it.
 
-<table>
-  <tr>
-    <td width="50%"><img src="outputs/quadruped-concept-render.png" alt="Concept render of the quadruped carrying the SO-101 arm"></td>
-    <td width="50%"><img src="outputs/quadruped-placement-study.png" alt="Fusion placement study of the SO-101 arm over the quadruped"></td>
-  </tr>
-  <tr>
-    <td align="center"><sub>Concept render (AI-generated from the Fusion model)</sub></td>
-    <td align="center"><sub>The real Fusion placement study it was made from</sub></td>
-  </tr>
-</table>
+![Terra: the SO-101 arm on the quadruped, with the custom mount in orange](docs/readme/terra-hero.png)
 
 > [!WARNING]
 > **The walking robot is not ready to print or operate.** It has not been assembled or physically tested, and its
 > mount, actuators, power, controls and gait are not validated. The images and CAD concepts are studies, not a
 > completed build.
 
-## The idea in one picture
+## The idea
 
 Two open-source robots, combined: the **SO-101** arm from The Robot Studio and Hugging Face (6 servos, about 0.63 kg),
-and a **12-servo hobby quadruped** by Miguel Ayuso Parrilla. A custom mount joins them.
+and a **12-servo hobby quadruped** by Miguel Ayuso Parrilla. The orange parts are new: a plate under the arm and four
+L-shaped supports that bolt into holes the chassis already has.
 
 ```mermaid
 flowchart LR
@@ -52,21 +44,42 @@ flowchart LR
 
 ## What the studies found
 
-**The arm fits.** Placed over the quadruped in Fusion, the arm's base clears the body by about 4.5 mm. That's a
-gap, not a mount: the arm is floating, so the next step was to design something to hold it.
-[Placement study →](QUADRUPED-PLACEMENT-STUDY.md)
+### The arm fits
 
-**One leg moves.** A single leg was rebuilt in Fusion with six working joints (hip yaw, hip flex and a knee linkage)
-and checked for collisions at sampled angles. The fork hits the femur when the hip swings to −15° or further, which
-tells the next leg design where its limit is. [Single-leg study →](SINGLE-LEG-MOTION-STUDY.md)
+Placed over the quadruped in Fusion, the arm's base clears the body by about 4.5 mm. That's a gap, not a mount:
+the arm is floating, so the next step was to design something to hold it. [Placement study →](QUADRUPED-PLACEMENT-STUDY.md)
 
-**The mount went through several versions.** A plate under the arm, held by four L-shaped supports bolted into
-existing holes in the chassis. Raising it 10 mm cleared the bolts and nuts from the shell; tool-access checks showed
-which bolts a screwdriver can actually reach. [Mount study →](ARM-MOUNT-STUDY.md)
+<table>
+  <tr>
+    <td width="50%"><img src="outputs/quadruped-placement-study.png" alt="Fusion placement study of the SO-101 arm over the quadruped"></td>
+    <td width="50%"><img src="outputs/quadruped-concept-render.png" alt="AI concept render made from the Fusion placement study"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>The Fusion placement study</sub></td>
+    <td align="center"><sub>An AI concept render made from it, to see where this is going</sub></td>
+  </tr>
+</table>
 
-**Sideways loads were the weak spot, and thicker walls fixed it.** Fusion stress-tested one support with an
-illustrative 10 N push. Downward was easy; sideways barely held. Doubling the wall from 4 mm to 8 mm took it back
-above the target. [Simulation →](SUPPORT-SIMULATION.md)
+### One leg moves
+
+A single leg was rebuilt in Fusion with six working joints (hip yaw, hip flex and a knee linkage) and checked for
+collisions at sampled angles. The fork hits the femur when the hip swings to −15° or further, which tells the next
+leg design where its limit is. [Single-leg study →](SINGLE-LEG-MOTION-STUDY.md)
+
+### The mount
+
+A 120 × 100 × 4 mm plate under the arm, held by four L-shaped supports that bolt into the chassis's existing side
+holes. Raising it 10 mm cleared the arm's bolts and nuts from the shell, and tool-access checks showed which bolts a
+screwdriver can actually reach. [Mount study →](ARM-MOUNT-STUDY.md)
+
+![The mount: plate and four side supports around the quadruped chassis](docs/readme/terra-mount.png)
+
+### Sideways loads were the weak spot, and thicker walls fixed it
+
+Fusion stress-tested one support with an illustrative 10 N push. Downward was easy; sideways barely held. Doubling
+the wall from 4 mm to 8 mm took it back above the target. [Simulation →](SUPPORT-SIMULATION.md)
+
+![The 4 mm support (left) and the 8 mm support (right)](docs/readme/terra-supports.png)
 
 ```mermaid
 xychart-beta
@@ -93,9 +106,10 @@ xychart-beta
 These use placeholder ABS material and an idealized fixed hole. They point the design in the right direction; they
 don't prove a printed part is strong enough.
 
-**How hard the arm pulls on its mount.** A small Python tool reads the arm's published model and computes the
-gravity load for any pose. Reaching forward with a 100 g object puts more than three times the load on the shoulder
-as tucking in.
+### How hard the arm pulls on its mount
+
+A small Python tool reads the arm's published model and computes the gravity load for any pose. Reaching forward
+with a 100 g object puts more than three times the load on the shoulder as tucking in.
 
 | Arm pose (shoulder / elbow) | Payload | Load at the base | Shoulder torque |
 |---|---:|---:|---:|
@@ -118,14 +132,15 @@ python3 -m unittest discover -s tests -v
 | Dig into the CAD studies | [Placement](QUADRUPED-PLACEMENT-STUDY.md) · [Single leg](SINGLE-LEG-MOTION-STUDY.md) · [Mount](ARM-MOUNT-STUDY.md) · [Simulation](SUPPORT-SIMULATION.md) · [Early concept](QUADRUPED-CONCEPT.md) |
 
 Fusion files for every study are in [`outputs/`](outputs). Files marked `CONCEPT`, `PROTOTYPE` or `SIMULATION-ONLY`
-are studies, not print files.
+are studies, not print files. The renders above are made from the same geometry with
+[`tools/render/`](tools/render) (CadQuery rebuilds the mount from the Fusion script's dimensions, Blender renders it).
 
 ## Get the files
 
 The upstream SO-101 print files and license are pinned in the `reference/SO-ARM100` Git submodule. Clone with:
 
 ```bash
-git clone --recurse-submodules https://github.com/Amadeus415/robotics_terra.git
+git clone --recurse-submodules https://github.com/Amadeus415/terra.git
 ```
 
 For an existing clone, run `git submodule update --init --recursive`. Open the guides from the local checkout to use
